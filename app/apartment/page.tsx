@@ -51,7 +51,7 @@ function ApartmentDetails() {
     const fetchApartmentDetails = async () => {
       try {
         const response = await axios.get<ApartmentDetails>(
-          `http://localhost:4000/apartments/getApartmentDetails/${id}`
+          `https:/nawy-backend-cfdk.vercel.app/apartments/getApartmentDetails/${id}`
         );
         setApartmentDetails(response.data);
       } catch (error) {

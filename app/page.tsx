@@ -33,7 +33,7 @@ const imagePaths: string[] = [
 const getApartments = async () => {
   try {
     const response = await axios.get<Apartment[]>(
-      "http://localhost:4000/apartments/listApartments"
+      "https:/nawy-backend-cfdk.vercel.app/listApartments"
     );
     console.log(response.data);
     return response.data;

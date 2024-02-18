@@ -1,7 +1,3 @@
-Certainly! Here's an updated version of the README with a section on how to run the app:
-
----
-
 # Apartments Next.js App
 
 This Next.js app is designed to showcase a list of apartments and their details.
